@@ -1,3 +1,158 @@
-body {
-    background-color: aqua;
+body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 800px;
+    margin-left: calc((100% - 800px) /2);
+    margin-top: 20px;
+    margin-bottom: 40px;
+ 
+}
+
+.logo {
+    
+     height: 40px;
+     width: 100px;
+     object-fit: contain;
+     object-position: left;
+
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+}
+.main-nav > .nav-link{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    margin-right: -5%;
+}
+
+
+.column-left {
+   margin-top: -10%;
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   margin-left: 1%;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.column-right{
+ margin-top: -10%;
+
+}
+.line {
+    position: relative;
+    bottom: 90px;
+    width: 100px;
+    height: 3px;
+    background-color: purple;
+   
+    
+}
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 15%;
+    color: gray;
+}
+h2{
+  
+    font-size: 50px;
+    margin-bottom: 25%;
+    margin-top: -3%;
+}
+p{
+    position: relative;
+    bottom: 50px;
+    padding-right: 90px;
+    margin-bottom: 25%;
+    font-size: 15px;
+    font-weight: normal;
+}
+.btn1 {
+
+    position: relative;
+    bottom:  100px;
+    border-style: solid;
+    border-color: purple;
+    background-color: white;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: purple;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+}
+.btn1:hover {
+    background-color: purple;
+    color: white;
+}
+.btn2 {
+    position: relative;
+    bottom:  100px;
+    border-style: solid;
+    border-color: purple;
+    background-color:white;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: purple;
+    padding: 10px 35px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+.btn2:hover {
+    background-color: purple;
+    color: white;
+}
+
+
+
+
+
+
+.socials {
+    position: relative;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+.social-link {
+   
+    margin-right:7px;
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    
+}
+
+.social-link:hover {
+    color: white;
+}
+.copyright-text {
+    color: black;
+    justify-content: right;
+    align-items: center;
+}
+
