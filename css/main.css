@@ -116,10 +116,13 @@ body {
     display: flex;
     gap: 10px;
 }
- .social-link {
+ .socials > social-link {
     font-size: 20px;
     text-decoration: none;
     color: grey;
+}
+.socials > .social-link:hover {
+    color: purple;
 }
 .socials > .social-link:hover {
     color: purple;
